@@ -17,9 +17,9 @@
   - By seeing this column chart we can say that **16.87% of our customers leaved** because competitor made better offer it means that we are **not competitive enough** and also 16.54% have left they have better devices both reasong having the same percentages tells that we need to work on our devices, 11% have left they **didn't got the support from the support person** telling we need to work on support persons too
   - Other factors accounting to 5%.
     
-    - This tree map shows main categories of churn :
+    - This tree map shows **main categories of churn** :
       
-    - ![Screenshot (187)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/d2187094-b179-483a-a271-eeb02d09c3a3)
+    ![Screenshot (187)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/d2187094-b179-483a-a271-eeb02d09c3a3)
 
 ## Step 3: Using Maps to find Competitors:
    ![Screenshot (188)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/daf0039e-d869-42b7-a3cb-42bb5419a75b)
@@ -46,7 +46,25 @@
 - Few customers lies in the Age group 80-85.
 
 ## Inspecting Groups
-- Databel offers group contracts 
+- Databel offers group contracts to customers of same household.
+- The advantage of customers is discounted rate. great way to grow the customer base.
+- To analyze customers have lower phone bill it has impact on the churn rate
+  
+![Screenshot (190)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/57823825-943c-4652-854d-72d1a6407367) 
+
+- The above line and stacked column chart tells the churn rate is very less for the groups 2-6 means customers who are having group contracts are less likely to churn.
+- we can also there is significant price differences between the customers who are having group contract and no group contract.
+- For no group contract people there is 32% churn rate and avg monthly charge is 33$.
+- For group contract people the avg monthly charge is 22-23$ and churn rate is around 5-6%.
+
+## Multiple fields to investigate 
+- Databel has 3 contract types :
+   - One Year
+   - Two Year
+   - Month To Month
+-
+
+
   
 
 
