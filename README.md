@@ -1,17 +1,27 @@
 # Analyzing-Customer-Churn-In-Power-BI 
 ---
+
+- Understanding the meta data gives a good grip over the data you are going to handle.
+  
 # Meta data Information
 ![Screenshot (185)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/6e050c5b-9873-4dde-b5ff-0e088ca31abe) 
 
 # Exploratory Analysis: 
+
+---
+
 ## Step 1 : To create measures and columns
   - we start by creating 2 measures Count of Customers and count of unique customers both are same.
   - Next step we calculate the churn rate with the column churn label having parameters "yes" or "no"
   - In order to calculate churn rate we have to calculate churned customers and apply this formula.
   - `churn rate=churned customers/Total no of customers`
   - it shows the churn rate is **26.86%**.
+
+
 ## Step 2: Investigating Churn Reasons: 
   - Created a column chart to of why customers churned.
+  - Top 20 Reasons on Why customers are churning more.
+    
     
   ![Screenshot (186)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/88ec79c1-616d-41e8-b583-f57a325ed35f) 
   - By seeing this column chart we can say that **16.87% of our customers leaved** because competitor made better offer it means that we are **not competitive enough** and also 16.54% have left they have better devices both reasong having the same percentages tells that we need to work on our devices, 11% have left they **didn't got the support from the support person** telling we need to work on support persons too
@@ -20,8 +30,11 @@
     - This tree map shows **main categories of churn** :
       
     ![Screenshot (187)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/d2187094-b179-483a-a271-eeb02d09c3a3)
+    
 
 ## Step 3: Using Maps to find Competitors:
+---
+
    ![Screenshot (188)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/daf0039e-d869-42b7-a3cb-42bb5419a75b)
 
    - From the above map **churn rate w.r.t no of customers** tells that majority of churned customers are located in california and has **churn rate of 63.24%** , **out of 68 customers 43 customers are churned** which company needs on focus on why it is happening in that california area.
@@ -183,8 +196,6 @@ To investigate how data plans affects the churn rate.
 
 
 --- 
----
----
 
 
 
