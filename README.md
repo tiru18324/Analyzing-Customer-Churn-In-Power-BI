@@ -1,7 +1,32 @@
 # Analyzing-Customer-Churn-In-Power-BI 
----
 
-- Understanding the meta data gives a good grip over the data you are going to handle.
+
+# Overview 
+
+
+- **Understanding the meta data** gives a good grip over the data you are going to handle.
+  
+- **Churn Rate Analysis:** Calculated the churn rate and found it to be 26.86%. You also identified the top reasons for customer churn, such as competitors offering better deals, device quality, and support issues.
+
+- **Geographical Analysis:** explored the geographical distribution of churned customers, focusing on states like California and Pennsylvania with high churn rates. This information can help target areas for improvement.
+
+- **Demographics Analysis**: categorized customers by age groups and found that seniors and those under 30 had varying churn rates. This information can inform marketing and service strategies tailored to different age groups.
+
+- **Group Contracts:** Customers with group contracts had a lower churn rate, indicating that offering group contracts might be a successful strategy for reducing churn.
+
+- **Contract Type Analysis:** Monthly contracts had a higher churn rate compared to yearly contracts, and there was a slight difference between male and female customers. Understanding contract preferences and their impact on churn is valuable.
+
+- **Data Plans and Churn:** Contrary to the hypothesis, customers with unlimited data plans had a higher churn rate. examined the impact of data consumption on churn rates.
+
+- **International Calls:** found that the combination of International Plan and International Calls influenced churn rates significantly. This can help in refining international call plans and pricing.
+
+- **Customer Service Calls:** Analyzing the relationship between payment methods, contract types, and customer service calls revealed insights about the connection between customer service interactions and churn.
+
+- **Extra Charges:** Customers using more data faced higher extra data charges. Understanding these charges can help in designing more competitive data plans.
+
+- **Geographical Variation in Service Calls:** You observed variations in the number of customer service calls across different states. This can be used to allocate resources and improve service in regions with higher call volumes.
+
+- **Dashboard:** created a dashboard to present your insights, making it easier to share the findings with others in a visually appealing way.
   
 # Meta data Information
 ![Screenshot (185)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/6e050c5b-9873-4dde-b5ff-0e088ca31abe) 
@@ -155,6 +180,8 @@ To investigate how data plans affects the churn rate.
 
 
 
+
+
 # Sharing Your Analysis:
 
 ![Screenshot (199)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/f0b0abbe-7a1d-4053-adf3-1d733bd0697b) 
@@ -164,6 +191,8 @@ To investigate how data plans affects the churn rate.
 - We can see that california has high churn in month-to-month Contract **churn rate of 79%**.
 - 303 customers had churned because competitor made better offer and **1579 people churned are from month to month** contract type.
 - 203 people have churned because of the attitude of our support person.
+
+
 
 
 # Payment Method and Contract Category With Customer Service Calls: 
@@ -179,12 +208,16 @@ To investigate how data plans affects the churn rate.
 
 
 
+
+
 # International and Data Plan: 
 - It is good to observe extra charges based on the data consumptions.
 - For the people who use 10 or more GB having Avg Extra Data Charges of 31.19 and Average Extra International Charges of 46.76.
 - The people who use less than 5GB has churn rate of 34.71% and having Avg international charge of 34.
 - The people who are using data between 5GB and 10GB having same extra data charges of 31-32 but there is a significant difference with the international plan.
 - **We can say the people have to pay extra if they are not on unlimited data plan and they are charged more for Extra Intenrational Charges**.
+
+
 
 
 # More Insights: 
@@ -195,7 +228,42 @@ To investigate how data plans affects the churn rate.
 - GA Has the 109 service call which is highest than all other states.
 
 
---- 
+
+
+# Recommendations: 
+
+
+**Competitive Pricing and Offers:**
+
+- To address the churn reasons related to competitors making better offers, consider revising your pricing and promotional strategies to stay competitive.
+**Explore loyalty programs or special offers to retain existing** customers.
+
+**Device Quality and Support:**
+ - Improve the quality of devices and provide better support to address the reasons for churn related to device quality and support issues.
+
+**Geographic Focus:**
+
+- **Pay special attention to regions with high churn rates, such as California**. Investigate the specific issues in those areas and tailor your services and offers to meet local needs.
+
+**Demographics-Based Marketing:**
+
+- Customize marketing and services based on different age groups. For instance, create age-specific **promotions or services for seniors**, those under 30, and the 30-65 age group.
+
+**Group Contracts:**
+
+- **Promote group contracts to encourage customer retention**. Consider offering special discounts or incentives for customers who sign up for group contracts.
+
+**Contract Type Analysis:**
+
+- Analyze why monthly contracts have a higher churn rate compared to yearly contracts. **Consider offering more attractive monthly plans or incentives for longer-term commitments.**
+
+**Customer Service:**
+
+- **Improve customer service quality, particularly for customers using monthly contracts** and direct debit payment methods, as they tend to have higher churn rates. 
+
+**Competitor Analysis**:
+
+- Continuously **monitor the strategies and offers of competitors** to stay competitive and adapt as necessary
 
 
 
