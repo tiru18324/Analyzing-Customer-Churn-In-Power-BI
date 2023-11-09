@@ -92,14 +92,18 @@ To investigate how data plans affects the churn rate.
      - Between 5 and 10GB
      - 10 or more GB
 
-``` Grouped Consumption = if('Databel - Data'[Avg Monthly GB Download]<5,"Group 1",if('Databel - Data'[Avg Monthly GB Download]=10,"Group 2","Group 3")) ```
+``` Grouped Consumption = if('Databel - Data'[Avg Monthly GB Download]<5,"Less than 5 GB",if('Databel - Data'[Avg Monthly GB Download]<10,"Between 5 and 10 GB","10 or more GB")) ```
 
-![s01](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/8ce55dd9-2c6e-496e-a52e-8790f8360954)
+
+![Screenshot (201)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/ab252395-ddb7-48a4-a6fe-0952b82552d1)
+
+
 
 - The **hypothesis is incorrect** based on the above table that the people who have taken **unlimited plan has more churn rate** than who didn't taken it. it also tells that we have 4494 customers in the unlimited data plan and **2193 customers are with no data plan** combining both we have 6687 customers.
-- We will also whether data consumption has any effect on it.
+- We will also see whether data consumption has any effect on it.
 
-![Screenshot (193)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/933ab228-2471-4b6f-9bc0-3a373cdc03c2) 
+![Screenshot (203)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/1989c2b5-659f-4761-a78c-f44fbd9f19cd)
+
 
 - From this above clustered bar chart we can see that group 1 i.e. **who use less than 5GB has 34% greater churn rate than people who dont use it** has less churn rate 12%.
 - Group 2 and Group 3 are same wrt to the usage of unlimited data plan having **churn rates of 29-33%.**
@@ -116,7 +120,10 @@ To investigate how data plans affects the churn rate.
 - From the above matrix we can see when **International plan is there and it doesn't have International calls active means there is more churn rate** for those customers having high churn rate of **71.19%**. 
 - And viceversa International plan is not there and it have International calls active means there is more churn rate churn rate of 40.34%.
 - If they dont have both means there is churn rate of 20%. lowest churn is possible when **both International plan and International calls active is yes having churn rate of 7.59%**.
-- If we consider the california state it has "International plan is there and it is not active means" - **100% churn rate in this category** which we need to focus.
+  
+![Screenshot (198)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/f7d2eb04-50d2-43bf-9c56-5767c1d5144f)
+
+- If we consider the california state it has "International plan is yes and International calls not active means" - **100% churn rate in this category** which we need to focus.
 
 
 # Contract Type: 
@@ -132,6 +139,56 @@ To investigate how data plans affects the churn rate.
 
 - we can see at the starting years of customer journey we have more churn rate with month to month 64% churn rate and it occured after 49 months of churn rate 63%.
 - 1 year contract has churn rate 33% after 19 months and after 74 months.
+
+
+
+# Sharing Your Analysis:
+
+![Screenshot (199)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/f0b0abbe-7a1d-4053-adf3-1d733bd0697b) 
+
+- Created a Dashboard by collating all the information from the best insights possible into databel Key concerns.
+- How this **different churn categories, types of contracts, Reasons, States can effect** the churn.
+- We can see that california has high churn in month-to-month Contract **churn rate of 79%**.
+- 303 customers had churned because competitor made better offer and **1579 people churned are from month to month** contract type.
+- 203 people have churned because of the attitude of our support person.
+
+
+# Payment Method and Contract Category With Customer Service Calls: 
+
+- For this we create a measure Avg Customer Service Calls ` Avg Customer Service Calls = (sum('Databel - Data'[Customer Service Calls])/COUNT('Databel - Data'[Customer Service Calls])) `
+
+![Screenshot (200)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/1840d77d-8a06-4a03-aabb-62a75b165be1) 
+
+- we have 6123 customer service calls from that **3112 calls we get from payment method of direct debit and having monthly contract** which makes half of our calls. having average customer service calls of 1.47 and those people having **churn rate of **53.90%**** and they have been customer of us i.e. account length of 18 months.
+- After the Direct Debit we have paper check which has the avg customer service calls of 1.36 and has a churn rate of 57.33% and the account length of 8 months.
+- For the people who are yearly contract also facing some issue with the direct debit payment having around 837 customer service calls which is greater when comapred to credit and paper check.
+- The churn rate is high for those customers. now it is clear the people who uses customer service often are the people who churn more than average. In this case customers who are using monthly contract are using direct debit as payment method.
+
+
+
+# International and Data Plan: 
+- It is good to observe extra charges based on the data consumptions.
+- For the people who use 10 or more GB having Avg Extra Data Charges of 31.19 and Average Extra International Charges of 46.76.
+- The people who use less than 5GB has churn rate of 34.71% and having Avg international charge of 34.
+- The people who are using data between 5GB and 10GB having same extra data charges of 31-32 but there is a significant difference with the international plan.
+- **We can say the people have to pay extra if they are not on unlimited data plan and they are charged more for Extra Intenrational Charges**.
+
+
+# More Insights: 
+
+![Screenshot (202)](https://github.com/tiru18324/Analyzing-Customer-Churn-In-Power-BI/assets/71921628/23e567d8-c8da-4815-a8ec-250d62b8112c) 
+
+- Even though we have higher churn rate for **california we have the less no of customer call**s. 44 customer calls.
+- GA Has the 109 service call which is highest than all other states.
+
+
+--- 
+---
+---
+
+
+
+
 
 
   
