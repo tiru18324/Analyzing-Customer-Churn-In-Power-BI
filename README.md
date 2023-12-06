@@ -265,6 +265,8 @@ To investigate how data plans affects the churn rate.
 
 - Continuously **monitor the strategies and offers of competitors** to stay competitive and adapt as necessary
 
+https://app.powerbi.com/view?r=eyJrIjoiZjQ4ZGVmNGQtZWRlNC00ZDE3LWI0ZTMtNmFkY2Q1NTkwNzU1IiwidCI6IjQxNDhkYTRmLTc3NmQtNDhlOC04YmRjLTlhYWJjNDc5NDYzNiIsImMiOjEwfQ%3D%3D
+
 
 
 
